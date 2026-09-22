@@ -1,6 +1,6 @@
 # VIIRS Nepal Fire & TROPOMI Air Quality Analysis Pipeline
 
-![Forest fire](https://api-backend-assets.s3.eu-south-1.amazonaws.com/private/filer_public/cc/95/cc9570fa-1f12-4b94-9a86-658cebe8dbd3/340e4c6c-530e-4da3-a3fc-c9f8c81b9c3e.jpg)
+![Forest fire](Picture%20samples/cover.jpg)
 
 Scripts for filtering and regridding VIIRS (VNP14IMG) active-fire detections
 over Nepal, combining them with TROPOMI/Sentinel-5P NO2 and CO columns, and
