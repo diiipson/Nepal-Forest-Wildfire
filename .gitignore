@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local tool/IDE settings (machine-specific, not project data)
+.claude/
+.vscode/
+
+# Raw and derived data products (large binary/geospatial files; not tracked in git)
+# See DATA_SOURCES.md for where to obtain or regenerate these.
+*.nc
+*.h5
+*.hdf
+*.csv
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.tif
+*.tiff
+
+# Generated figures
+*.png
+*.jpg
+*.jpeg
+*.pdf

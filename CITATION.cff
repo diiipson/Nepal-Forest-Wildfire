@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its outputs, please cite it as below."
+title: "VIIRS Nepal Fire & TROPOMI Air Quality Analysis Pipeline"
+type: software
+version: 0.1.0
+date-released: 2026-09-22
+license: MIT
+authors:
+  # TODO: replace given-names/family-names below with the real author name(s).
+  - given-names: "TODO"
+    family-names: "TODO"
+    email: dipsonnec@gmail.com
+keywords:
+  - VIIRS
+  - VNP14IMG
+  - active fire detection
+  - TROPOMI
+  - Sentinel-5P
+  - Nepal
+  - air quality
+  - remote sensing
+  - fire regridding
+repository-code: "" # TODO: add the repository URL once this project is hosted (e.g. on GitHub)
