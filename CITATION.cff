@@ -6,9 +6,7 @@ version: 0.1.0
 date-released: 2026-09-22
 license: MIT
 authors:
-  # TODO: replace given-names/family-names below with the real author name(s).
-  - given-names: "TODO"
-    family-names: "TODO"
+  - family-names: "Dipson"
     email: dipsonnec@gmail.com
 keywords:
   - VIIRS
@@ -20,4 +18,4 @@ keywords:
   - air quality
   - remote sensing
   - fire regridding
-repository-code: "" # TODO: add the repository URL once this project is hosted (e.g. on GitHub)
+repository-code: "https://github.com/diiipson/Nepal-Forest-Wildfire"
