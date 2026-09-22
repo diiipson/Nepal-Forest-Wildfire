@@ -10,6 +10,30 @@ around the existing scripts — the scripts' internal logic was not changed**
 (see [Reproducibility caveats](#reproducibility-caveats) below for what that
 means in practice).
 
+## Sample outputs
+
+Example figures from the pipeline, in [`Picture samples/`](Picture%20samples):
+
+| Cluster classification (regional) | Cluster classification (zoomed, with hotspot) |
+|---|---|
+| ![Cluster classification over the Nepal fire domain](Picture%20samples/Cluster1.png) | ![Zoomed cluster classification with a detected hotspot in red](Picture%20samples/Cluster2.png) |
+
+Spatial cluster/hotspot classification of the gridded fire domain (from the
+hotspot/cluster analysis scripts, e.g. [`hotspot.py`](hotspot.py) and
+[`PROVINCEAREA.py`](PROVINCEAREA.py)) — colored cells are distinct clusters;
+red cells in the zoomed view mark a detected hotspot.
+
+![Tropospheric NO2 vs. VIIRS fire count across site clusters and years](Picture%20samples/Figure_8.jpg)
+
+Tropospheric NO2 (green, left axis) against VIIRS fire count (red, right
+axis) across multiple site clusters and years, showing NO2 tracking the
+fire season peak around March–May (from the VIIRS + TROPOMI combination
+step, see [Combining VIIRS fire grids with TROPOMI](#4-combining-viirs-fire-grids-with-tropomi)).
+
+A combined/merged version of the cluster maps is also available as
+[`cluster_combined.tif`](Picture%20samples/cluster_combined.tif) (not
+shown inline — GitHub does not render TIFF images in Markdown).
+
 ## Repository layout
 
 ```
@@ -20,6 +44,7 @@ means in practice).
 ├── CITATION.cff          <- machine-readable citation metadata
 ├── requirements.txt      <- Python dependencies
 ├── .gitignore            <- excludes data files, figures, local tool config
+├── Picture samples/      <- curated example output figures (tracked despite .gitignore)
 └── *.py                  <- analysis scripts (see below)
 ```
 
