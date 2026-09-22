@@ -32,3 +32,10 @@ env/
 *.jpg
 *.jpeg
 *.pdf
+
+# Exception: curated sample figures we do want tracked
+!Picture samples/*.png
+!Picture samples/*.jpg
+!Picture samples/*.jpeg
+!Picture samples/*.tif
+!Picture samples/*.tiff
